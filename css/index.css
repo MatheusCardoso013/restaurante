@@ -1,0 +1,137 @@
+.promocao {
+    margin-bottom: 2rem;
+}
+.promocao__img {
+    width: 100%;   
+}
+
+.delivery {
+    color: white;
+    margin-bottom: 2em;
+}
+.delivery__container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.delivery__div {
+    background-image: url(../img/restaurante-foto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;   
+    height: 250px;
+    padding: 2rem;
+    margin: 0 1rem;
+}
+
+.delivery__div2 {
+    background-image: url(../img/delivery.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;   
+    height: 250px;
+    padding: 2rem;
+    margin: 0 1rem;
+}
+
+.delivery__small {
+    font-size: 1rem;
+    margin: 2rem 0 1rem;
+    text-transform: uppercase;
+    filter: opacity(0.7);
+}
+
+.delivery__titulo {
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.delivery__p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.delivery__botao {
+    font-size: 1rem;
+    background-color: var(--cor-botao-secundario);
+    width: 30%;
+    text-transform: uppercase;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.delivery__botao:hover {
+    background-color: var(--cor-botao);
+    transition: .5s all;
+}
+
+.delivery__div a, .delivery__div2 a{
+    text-decoration: none;
+    color: var(--cor-letra);
+}
+
+.lancamentos {
+    margin-bottom: 1rem;
+}
+
+.lancamentos__titulo {
+    margin: 0 0 1.5rem 5.7rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--cor-letra);
+}
+
+.lancamentos__div {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 3rem;
+}
+
+.lancamentos__img {
+    width: 100%;
+    margin-bottom: .5rem;
+}
+
+.lancamentos__img:nth-child(1) {
+    margin-left: 0;
+}
+
+.lancamentos__nome {
+    text-align: center;
+    padding: 0 0 .5rem;
+    border-bottom: 1px solid var(--cor-traco);
+}
+
+.lancamentos__botao {
+    text-align: center;
+    margin-top: .5rem;
+    background-color: var(--cor-botao-secundario);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.lancamentos__a {
+    text-decoration: none;
+    color: var(--cor-letra)
+}
+
+.lancamentos__botao:hover {
+    background-color: var(--cor-botao);
+    transition: .5s all;
+}
+
+@media screen and (max-width: 900px) {
+    .delivery__container {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .delivery__div, .delivery__div2 {
+        margin-bottom: 1rem;
+    }
+}

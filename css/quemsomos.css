@@ -1,0 +1,39 @@
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/quemsomos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: var(--cor-titulo-quemsomos);
+    margin-bottom: 6em;
+}
+
+.titulo__quemsomos {
+    font-size: 4rem;
+    padding: 1.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.quemsomos {
+    text-align: center;
+    background-color: #FAFAFA;
+    margin: 0 4em;
+}
+.quemsomos__titulo {
+    font-size: 2em;
+    text-transform: uppercase;
+    color: var(--cor-letra);
+    font-weight: 700;
+    margin: 1em 0;
+    padding-top: 1em;
+}
+
+.quemsomos__p {
+    padding: 0 7em;
+    text-align: start;
+    letter-spacing: .1rem;
+    margin-bottom: 15px;
+    line-height: 1.5em;
+}

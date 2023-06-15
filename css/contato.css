@@ -1,0 +1,42 @@
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/quemsomos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: var(--cor-titulo-quemsomos);
+    margin-bottom: 2em;
+}
+
+.titulo__contato {
+    font-size: 4rem;
+    padding: 1.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 12em;
+}
+
+form label {
+    margin: 1em 0;
+}
+
+.form__input {
+    padding: 1em;
+}
+
+.form__enviar {
+    width: 25%;
+    padding: 1em;
+    font-size: 1rem;
+    background-color: var(--cor-botao);
+    border: none;
+    border-radius: 6px;
+    margin: 2em 0;
+}

@@ -1,0 +1,61 @@
+
+.titulo-cardapio {
+    background-color: var(--cor-titulo-cardapio);
+    text-align: center;
+    color: var(--cor-fundo-cabecalho);
+    padding: 3em;   
+    margin-bottom: 3rem;
+}
+
+.titulo__h2{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: .5em;
+}
+
+.titulo__endereco {
+    text-transform: uppercase;
+}
+
+.cardapio {
+    margin: 0 7em;
+    color: var(--cor-letra);
+}
+
+.cardapio__titulo {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 1.5em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.cardapio__div {
+    margin: 0 2em;
+}
+
+.cardapio__nome {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: .5em;
+}
+
+.cardapio__desc {
+    margin-bottom: 1em;
+    font-size: 1.2rem;
+}
+
+.cardapio__preco {
+    font-size: 2rem;
+}
+
+.cardapio__img {
+    border: 2px solid gray;
+}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Montserrat&family=Open+Sans:wght@400;700&display=swap');
+
+:root{
+    --cor-fundo-cabecalho: #FFF;
+    --cor-letra: #3f2222;
+    --cor-botao: #DAA520; 
+    --cor-botao-secundario: #C6AA69;
+    --cor-traco: #f0efef;
+    --fonte-principal: 'Open Sans', sans-serif;
+    --cor-titulo-quemsomos: #ffc125;
+    --cor-titulo-cardapio: #7c3829;
+    --cor-letra-simples: #FFF;
+}
+
+body {
+    background-color: var(--cor-fundo-cabecalho);
+    font-family: var(--fonte-principal);
+}
+
+
